@@ -1,0 +1,113 @@
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+tr:hover {
+    background-color: #f5f5f5;
+}
+h2{
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F9E9;
+    padding: 50px;
+}
+div {
+    max-width: 500px;
+    margin: auto;
+    background-color: #515751;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input[type="text"], input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 16px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+label{
+    font-size: 20px;
+    font-family: monospace;
+    color: #F5F9E9;
+}
+p ,a {
+    color: white;
+    text-decoration: none;
+}
+select{
+    padding: 10px
+}
+.link{
+    text-decoration: none
+}
+.link:hover{
+    color: #4CAF50;
+}
+button{
+    width: 100%;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    background-color: #C2C1A5;
+    align-content: end;
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 20px;
+}
+button:hover{
+    background-color:#596869 ;
+    color: white;
+}
+.error {
+    color: red;
+}
+.up-link{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.up-link:hover{
+    color: #4CAF50;
+}
+.del{
+    font-weight: bold;
+    border: 1px solid;
+}
+.del:hover{
+    color: red;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+a.logOut{
+    font-weight: bold;
+    color:black;
+}
+.logOut:hover{
+    background-color: red;
+    color: whitesmoke;
+}
